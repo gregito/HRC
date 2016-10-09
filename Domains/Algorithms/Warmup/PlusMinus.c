@@ -2,9 +2,10 @@
 
 int main() {
 
-    double n, positive = 0, negative = 0, zero = 0;
-    scanf("%lf", &n);
-    int numbers[(int) n];
+    int n;
+    double positive = 0, negative = 0, zero = 0;
+    scanf("%d", &n);
+    int numbers[n];
     for (int i = 0; i < n; i++) {
         scanf("%d", &numbers[i]);
     }
