@@ -17,3 +17,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES Domains/Algorithms/Warmup/PlusMinus.c)
 add_executable(PlusMinus ${SOURCE_FILES})
+
+################################## Staircase ##################################
+
+project(Staircase)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+set(SOURCE_FILES Domains/Algorithms/Warmup/Staircase.c)
+add_executable(Staircase ${SOURCE_FILES})
